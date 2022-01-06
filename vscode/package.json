@@ -1,0 +1,43 @@
+{
+    "name": "seafarer-vscode",
+    "displayName": "Seafarer",
+    "description": "A dark ocean inspired theme for Visual Studio Code",
+    "version": "0.0.4",
+    "publisher": "lostVkng",
+    "author": {
+		"name": "Tom Jones",
+		"url": "https://www.tomjones.rocks"
+    },
+    "repository": {
+		"type": "git",
+		"url": "https://gitlab.com/lostVkng/seafarer-theme"
+	},
+    "license": "MIT",
+    "keywords": [
+		"arctic",
+		"dark",
+		"polar",
+		"cold",
+        "blue",
+        "ocean"
+    ],
+    "galleryBanner": {
+        "color": "#1F2430",
+        "theme": "dark"
+      },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Seafarer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/seafarer-color-theme.json"
+            }
+        ]
+    }
+}
